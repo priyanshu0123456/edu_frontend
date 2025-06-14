@@ -1,0 +1,103 @@
+.home-container {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+    background-image: url('../assets/hero-bg.jpg');
+    /* add a background image */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #00eaff;
+}
+
+.hero-desc {
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.platform-info {
+    padding: 3rem 2rem;
+    background: #f4f8fb;
+    text-align: center;
+}
+
+.platform-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #203a43;
+}
+
+.platform-info p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.materials-section {
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.materials-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #00eaff;
+}
+
+.materials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.material-card {
+    background: #ffffff15;
+    padding: 1.5rem;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+}
+
+.material-card .tag {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 0.8rem;
+    background: #00eaff;
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.material-card h4 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
