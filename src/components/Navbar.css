@@ -79,6 +79,9 @@
     background: #333;
     margin: 4px;
 }
+.nav-links {
+    transition: all 0.3s ease-in-out;
+}
 
 @media (max-width: 768px) {
     .nav-links {
